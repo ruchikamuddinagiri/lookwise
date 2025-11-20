@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+requests
+moviepy
+gTTS
+openai
+python-multipart
+Pillow

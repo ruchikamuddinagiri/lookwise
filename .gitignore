@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+
+# Env files / secrets
+.env
+**/.env
+
+# Node / frontend / extension builds (if any)
+node_modules/
+dist/
+build/
+
+# macOS
+.DS_Store

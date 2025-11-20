@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Lookwise Pro – Shade Finder",
+  "version": "0.1.0",
+  "description": "Upload a selfie on any brand website and get your best matching shades.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_title": "Lookwise Pro",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
