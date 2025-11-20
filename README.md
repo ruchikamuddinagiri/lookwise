@@ -1,6 +1,6 @@
 # Lookwise
 
-Lookwise is a Chrome extension + FastAPI backend that analyzes a selfie using GPT-4o Vision and recommends the best matching makeup shades from any product page (e.g., Sephora).
+Lookwise is a Chrome extension + FastAPI backend that analyzes a selfie using GPT-4o Vision and recommends the best matching makeup shades from any product page on Sephora.
 
 ## Features
 - AI-powered skin tone & undertone detection  
